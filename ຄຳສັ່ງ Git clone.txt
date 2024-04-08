@@ -1,0 +1,3 @@
+ຄຳສັ່ງ Git clone
+
+git clone ວ່າງລິ້ງໃສ່ນີ້
