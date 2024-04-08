@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            border:1px solid red;
+        }
+        span{
+            border:1px solid green;
+        }
+    </style>
+</head>
+<body>
+    <h1>ໜ້າທີ3</h1>
+    <h1>ລາຍການສິນຄ້າ</h1>
+    <!-- bcolor ໃສ່ສີ -->
+    <!-- cellpadding ເປັນການຂະຫຍາຍສ່ວນທາງໃນກາງ -->
+    <!-- cellspacing ເປັນການຂະຫຍາຍສ່ວນທາງນອກຂອບ -->
+    <table border="1" cellpadding="10" cellspacing="10">
+        <!-- Attibute -->
+        <thead>
+            <th>ລະຫັດສິນຄ້າ</th>
+            <th>ພາບສິນຄ້າ</th>
+            <th>ຊື່ສິນຄ້າ</th>
+            <th>ລາຄາ</th>
+            <th>ດຳເນິນການ</th>
+        </thead>
+        <!-- <tr> ແຖວ -->
+        <!-- align="left,center,right" ຈັດຕຳແໜ່ງຂອງຮູບພາບ ຫຼື ອັກສອນໃຫ້ຢູ່ຊ່ອງຕາລາງ<td>ຄ່່າປົກກະຕິຄື left -->
+        <!-- ຖ້າຕ້ອງການໃຫ້ ທຸກຕົວຢູ່ລະຫວ່າງກາງໃຫ້ ເພິ່ມໃນ <tbody align="center>"-->
+        <tbody align="center">
+            <tr bgcolor="pink">
+                <td>P001</td>
+                <!-- colspan="x" ລວມຄໍລັມ -->
+                <td>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBOqpCcgdIm6UYadf-YbBD9pkYfrDLRuxOZw&usqp=CAU" alt="" width ="50px" height="50px">
+                </td>
+                <td bgcolor="Green">ເຂົ້າປຽກ</td>
+                <td>20,000.00</td>
+                <!-- rowspan="x" ລວມແຖວ -->
+                <td rowspan="2">
+                    <a href="#">ສັ່ງຊື້</a>
+                </td>
+            </tr>
+            <!-- align ປັບໃຫ້ຢູ່ລະຫວ່າງກາງ  -->
+            <tr bgcolor="gold">
+                <td>P002</td>
+                <td>
+                   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT2xUPG5Yx4ndupbGqwZLBfzCJctVftzOqiYNQxvc9lO2FNf61kDhJ2LQ5qL3r9CfOtUw&usqp=CAU" alt=""width ="50px" height="50px">
+                </td>
+                <td>ພັດສະຕໍກຸ້ງ</td>
+                <td>25,000.00</td>
+            </tr>
+            <tr></tr>
+        </tbody>
+        <!-- ສະແດງຜົນໄດ້ຮັບຈາກທ້າຍຕາລາງ -->
+        <tfoot>
+            <tr align="right">
+              <td colspan="5"><strong>ລາຄາລວມ :45,000 ພັນກີບ</strong></td>
+        </tfoot>
+    </table>
+    <!-- span ຕໍ່ລຽງກັນ -->
+    <span style="color:royalblue">
+        <h1>HTML5</h1>
+        <P>Bounleuam</P>
+    </span>
+    <span style ="color:green">
+    <h1>css</h1>
+    <p>Bounleuam</p>
+    </span>
+    <!-- div ຂຶ້ນບັນທັດໃໝ່ -->
+    <div style="color:royalblue">
+        <h1>HTML5</h1>
+        <P>Bounleuam</P>
+    </div>
+    <div  style ="color:green">
+        <h1>css</h1>
+        <p>Bounleuam</p>
+    </div >
+
+    <!-- ຄວາມແຕກຕ່າງ -->
+    <span>Bounleuam</span>
+    <span>Bounleuam</span>
+    <span>Bounleuam</span>
+
+    <div>Bounleuam</div>
+    <div>Bounleuam</div>
+    <div>Bounleuam</div>
+</body>
+</html>
